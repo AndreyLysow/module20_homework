@@ -168,7 +168,7 @@ btn.addEventListener('click', () => {
 });
 ```
 
-# на такой код:
+## на такой код:
 ```
 const btn = document.querySelector('button');
 const output = document.querySelector('#output');
@@ -222,7 +222,8 @@ btn.addEventListener('click', async () => {
 ## В результате мы избавились от ненужного функционала, сохраняя только те части, которые требуются для корректной работы согласно техническому заданию.
 
 
-# в части демонтстации применения принципа SOLID (S - Single Responsibility, O - Open/Closed, L - Liskov Substitution, I - Interface Segregation, D - Dependency Inversion) работаем также с файлом /scr/script3.js разделим код  на более мелкие компоненты для улучшения читаемости, расширяемости и тестируемости.
+# в части демонтстации применения принципа SOLID (S - Single Responsibility, O - Open/Closed, L - Liskov Substitution, I - Interface Segregation, D - Dependency Inversion) 
+## работаем также с файлом /scr/script3.js разделим код  на более мелкие компоненты для улучшения читаемости, расширяемости и тестируемости.
 
 
 ```
